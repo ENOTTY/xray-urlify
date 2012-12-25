@@ -80,7 +80,25 @@ function add_holding(sym,val) {
 
 <body>
   <p id="error_txt"></p>
-  <p>Something</p>
+  <p>
+    This page works-around the lack of a portfolio feature in the free
+    version of the amazing
+    <a href="http://portfolio.morningstar.com/Rtport/Free/InstantXRayDEntry.aspx">Morningstar X-Ray</a>
+    product.
+  </p>
+  <p>
+    You can enter all your holdings here, then click "Get URL"
+    for a link you can save. When you use the link to come back to this
+    page, all the data will be re-entered automatically.
+  </p>
+  <p>
+    When you want to see the X-Ray analysis, click X-Ray and you will be
+    taken to Morningstar's website.
+  </p>
+  <p>
+    For an example, <a href="mstarx.php?symbol%5B%5D=VBMFX&value%5B%5D=20000&symbol%5B%5D=VTSMX&value%5B%5D=48000&symbol%5B%5D=VGTSX&value%5B%5D=24000&symbol%5B%5D=VGSIX&value%5B%5D=8000">click here</a>
+    for a Core Four portfolio.
+  </p>
   <form method="get" name="entry">
     <input id="geturl" type="submit" value="Get URL"/>
   </form>
